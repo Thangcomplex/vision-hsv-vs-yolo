@@ -1,0 +1,71 @@
+# ============================================================
+# .gitignore universel pour projets Python ML / Deep Learning
+# ============================================================
+
+# --- Secrets (CRITIQUE — ne JAMAIS commit) ---
+.env
+.env.local
+*.key
+secrets/
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- Modèles ML entraînés (souvent trop volumineux) ---
+# *.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# --- Données volumineuses ---
+data/*.csv
+data/*.json
+data/*.parquet
+data/raw/
+data/processed/
+!data/sample/         # mais on garde les exemples
+
+# --- Bases de données vectorielles ---
+db/
+chroma_db/
+*.sqlite
+*.db
+
+# --- Résultats lourds ---
+results/*.png
+results/*.pdf
+results/large/
+logs/
+runs/
+wandb/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+# --- Spécifique à ce projet ---
+Learning/
