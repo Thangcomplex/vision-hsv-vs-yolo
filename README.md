@@ -47,7 +47,7 @@ Architecture orientée objet :
 | FPS théorique | ~500 | ~20 |
 | Classes détectées | 1 (couleur) | 80 (COCO) |
 | Robustesse luminosité | ⚠️ Faible | ✅ Élevée |
-| Taux de détection (jaune) | ~98% | ~10% |
+| Taux de détection (jaune) | ~50% | ~98% |
 
 > 📝 Remplacez les XX par les chiffres réels après votre benchmark
 
