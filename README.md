@@ -150,4 +150,4 @@ MIT
 
 **Pham Duc Thang** — Étudiant ingénieur, INSA Centre-Val de Loire
 - GitHub : [@Thangcomplex](https://github.com/Thangcomplex)
-- Email : votre.email@example.com
+- Email : duc_thang.pham@insa-cvl.fr
